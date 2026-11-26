@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320">
+  <defs>
+    <linearGradient id="fond" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1F3A"/>
+      <stop offset="1" stop-color="#16407A"/>
+    </linearGradient>
+    <linearGradient id="bouclier" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4FA3FF"/>
+      <stop offset="1" stop-color="#1F6FD6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="320" rx="18" fill="url(#fond)"/>
+
+  <!-- étoiles discrètes (clin d'oeil à l'UE) -->
+  <g fill="#FFCC33" opacity="0.18">
+    <circle cx="1080" cy="70" r="5"/><circle cx="1130" cy="83" r="5"/><circle cx="1167" cy="120" r="5"/>
+    <circle cx="1180" cy="170" r="5"/><circle cx="1167" cy="220" r="5"/><circle cx="1130" cy="257" r="5"/>
+    <circle cx="1080" cy="270" r="5"/><circle cx="1030" cy="257" r="5"/><circle cx="993" cy="220" r="5"/>
+    <circle cx="980" cy="170" r="5"/><circle cx="993" cy="120" r="5"/><circle cx="1030" cy="83" r="5"/>
+  </g>
+
+  <!-- bouclier + coche -->
+  <g transform="translate(90,70)">
+    <path d="M90 0 L170 30 L170 95 C170 145 135 175 90 190 C45 175 10 145 10 95 L10 30 Z" fill="url(#bouclier)"/>
+    <path d="M52 95 L80 123 L130 68" fill="none" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="310" y="150" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="84" font-weight="700" fill="#FFFFFF">ComplIA</text>
+  <text x="314" y="200" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" fill="#CFE2FF">Copilote de conformité AI Act &amp; RGPD</text>
+
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#0B1F3A">
+    <rect x="314" y="228" width="80" height="36" rx="18" fill="#FFCC33"/><text x="354" y="253" text-anchor="middle">RAG</text>
+    <rect x="404" y="228" width="128" height="36" rx="18" fill="#FFCC33"/><text x="468" y="253" text-anchor="middle">LangGraph</text>
+    <rect x="542" y="228" width="80" height="36" rx="18" fill="#FFCC33"/><text x="582" y="253" text-anchor="middle">MCP</text>
+    <rect x="632" y="228" width="104" height="36" rx="18" fill="#FFCC33"/><text x="684" y="253" text-anchor="middle">Gradio</text>
+  </g>
+</svg>

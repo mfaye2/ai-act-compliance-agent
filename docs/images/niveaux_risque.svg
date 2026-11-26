@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
+  <rect width="960" height="560" rx="18" fill="#FFFFFF"/>
+
+  <text x="480" y="52" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#0B1F3A">Les 4 niveaux de risque de l'AI Act</text>
+  <text x="480" y="82" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#5A6B80">Le Classifieur de ComplIA place chaque système dans l'un d'eux</text>
+
+  <!-- pyramide -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    <path d="M250 110 L310 220 L190 220 Z" fill="#D7263D"/>
+    <text x="250" y="200" font-size="17">Interdit</text>
+
+    <path d="M187 226 L313 226 L370 330 L130 330 Z" fill="#F46036"/>
+    <text x="250" y="286" font-size="19">Haut risque</text>
+
+    <path d="M127 336 L373 336 L430 440 L70 440 Z" fill="#F2B134"/>
+    <text x="250" y="396" font-size="19" fill="#3A2A00">Risque limité</text>
+
+    <path d="M67 446 L433 446 L490 520 L10 520 Z" fill="#2E9E5B"/>
+    <text x="250" y="491" font-size="19">Minimal</text>
+  </g>
+
+  <!-- légendes -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <line x1="318" y1="175" x2="520" y2="175" stroke="#D7263D" stroke-width="2" stroke-dasharray="4 4"/>
+    <text x="530" y="168" font-size="19" font-weight="700" fill="#D7263D">Pratiques interdites — art. 5</text>
+    <text x="530" y="193" font-size="16" fill="#333">ex. : notation sociale des habitants</text>
+
+    <line x1="360" y1="280" x2="520" y2="280" stroke="#F46036" stroke-width="2" stroke-dasharray="4 4"/>
+    <text x="530" y="273" font-size="19" font-weight="700" fill="#D0481F">Haut risque — art. 6 et annexe III</text>
+    <text x="530" y="298" font-size="16" fill="#333">ex. : tri automatique de CV</text>
+
+    <line x1="420" y1="390" x2="520" y2="390" stroke="#C98A00" stroke-width="2" stroke-dasharray="4 4"/>
+    <text x="530" y="383" font-size="19" font-weight="700" fill="#B07A00">Risque limité — art. 50 (transparence)</text>
+    <text x="530" y="408" font-size="16" fill="#333">ex. : chatbot de service client</text>
+
+    <line x1="470" y1="483" x2="520" y2="483" stroke="#2E9E5B" stroke-width="2" stroke-dasharray="4 4"/>
+    <text x="530" y="476" font-size="19" font-weight="700" fill="#22804A">Risque minimal</text>
+    <text x="530" y="501" font-size="16" fill="#333">ex. : filtre anti-spam</text>
+  </g>
+</svg>
